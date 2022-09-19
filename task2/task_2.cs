@@ -9,7 +9,7 @@
         {
             for (int i = 0; i < coeff.GetLength(0); i++)
             {
-                Console.Write($"Введите коэффициенты {i + 1}-го уравнения (y = k * x + b):\n");
+                Console.Write($"Введите коэффициенты {i + 1}-го уравнения:\n");
                 for (int j = 0; j < coeff.GetLength(1); j++)
                 {
                     if (j == 0) Console.Write($"Введите коэффициент k: ");
